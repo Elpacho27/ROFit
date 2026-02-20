@@ -1,0 +1,35 @@
+.default-button {
+  margin-top: 8px;
+  border: none;
+  border-radius: 999px;
+  padding: 9px 18px;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    transform 0.05s ease,
+    box-shadow 0.1s ease;
+}
+
+.default-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.55);
+}
+
+.default-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+  transform: none;
+}
+
+.default-button[type="back"] {
+  background: linear-gradient(135deg, #dc2626, #f87171);
+}
+
+.default-button[type="back"]:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(220, 38, 38, 0.55);
+}

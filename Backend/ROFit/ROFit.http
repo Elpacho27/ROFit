@@ -1,0 +1,6 @@
+@ROFit_HostAddress = http://localhost:5293
+
+GET {{ROFit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

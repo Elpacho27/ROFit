@@ -1,0 +1,20 @@
+﻿using Npgsql;
+
+namespace ROFit.DAL
+{
+    public static class ConnectionFactory
+    {
+        private static readonly string ConnectionString =
+    "Server = 127.0.0.1;Port=5432;Database=your_db;User Id =your_id;Password=your_password;";
+
+        public static NpgsqlConnection CreateConnection()
+        {
+            return new NpgsqlConnection(ConnectionString);
+        }
+
+        public static string GetConnectionString()
+        {
+            return ConnectionString;
+        }
+    }
+}

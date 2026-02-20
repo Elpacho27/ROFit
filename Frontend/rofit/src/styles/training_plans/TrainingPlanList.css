@@ -1,0 +1,155 @@
+.training-plans-page {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #e5e7eb;
+}
+
+.training-plans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+}
+
+.training-plans-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #e5f0ff;
+  margin: 0 0 4px;
+}
+
+.training-plans-subtitle {
+  margin: 0;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.training-plans-back {
+  border: none;
+  background: transparent;
+  color: #9ca3af;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 500;
+  transition: color 0.15s ease;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.training-plans-back:hover {
+  color: #49bbba;
+}
+
+.training-plans-loading,
+.training-plans-error {
+  text-align: center;
+  color: #9ca3af;
+  padding: 24px;
+}
+
+.training-plans-error {
+  color: #f97373;
+}
+
+.training-plans-empty {
+  text-align: center;
+  padding: 40px 24px;
+  color: #6b7280;
+}
+
+.training-plans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.training-plan-card {
+  border-radius: 18px;
+  padding: 16px 20px;
+
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.7) inset;
+
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease,
+    border-color 0.16s ease,
+    background 0.16s ease;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.training-plan-card:hover {
+  transform: translateY(-3px);
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(191, 219, 254, 0.8);
+  box-shadow:
+    0 24px 56px rgba(15, 23, 42, 0.98),
+    0 0 0 1px rgba(148, 163, 184, 0.7) inset;
+}
+
+.training-plan-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.training-plan-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.training-plan-muscle {
+  display: inline-flex;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(59, 130, 246, 0.7);
+  color: #bfdbfe;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.training-plan-description {
+  margin: 8px 0 12px;
+  font-size: 14px;
+  color: #cbd5f5;
+  line-height: 1.5;
+}
+.training-plan-header-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .training-plans-page {
+    max-width: 100%;
+  }
+
+  .training-plans-title {
+    font-size: 24px;
+  }
+
+  .training-plan-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .training-plan-muscle {
+    align-self: flex-start;
+  }
+}

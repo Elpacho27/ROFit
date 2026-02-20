@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.4.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.72.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.19" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ROFit.Api\ROFit.Api.csproj" />
+    <ProjectReference Include="..\ROFit.common\ROFit.common.csproj" />
+    <ProjectReference Include="..\ROFit.DAL\ROFit.DAL.csproj" />
+    <ProjectReference Include="..\ROFit.Model.Common\ROFit.Model.Common.csproj" />
+    <ProjectReference Include="..\ROFit.Model\ROFit.Model.csproj" />
+    <ProjectReference Include="..\ROFit.Repository.Common\ROFit.Repository.Common.csproj" />
+    <ProjectReference Include="..\ROFit.Repository\ROFit.Repository.csproj" />
+    <ProjectReference Include="..\ROFit.Service.Common\ROFit.Service.Common.csproj" />
+    <ProjectReference Include="..\ROFit.Service\ROFit.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\chat-files\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "koBycT+AAlJe8SKLIV2XUhWniP+azm6XMwiSo0j3UFk=",
+  "Source": "ROFit",
+  "BasePath": "_content/ROFit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ROFit\\wwwroot",
+      "Source": "ROFit",
+      "ContentRoot": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\wwwroot\\",
+      "BasePath": "_content/ROFit",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

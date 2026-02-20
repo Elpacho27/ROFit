@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ROFit.Repository.Common/1.0.0": {
+        "dependencies": {
+          "ROFit.Model": "1.0.0",
+          "ROFit.Model.Common": "1.0.0"
+        },
+        "runtime": {
+          "ROFit.Repository.Common.dll": {}
+        }
+      },
+      "ROFit.Model/1.0.0": {
+        "dependencies": {
+          "ROFit.Model.Common": "1.0.0"
+        },
+        "runtime": {
+          "ROFit.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ROFit.Model.Common/1.0.0": {
+        "runtime": {
+          "ROFit.Model.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ROFit.Repository.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ROFit.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ROFit.Model.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

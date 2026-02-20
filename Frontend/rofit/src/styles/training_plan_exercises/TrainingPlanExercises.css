@@ -1,0 +1,343 @@
+.plan-exercises-page {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 8px 32px;
+  color: #e5e7eb;
+}
+
+.plan-exercises-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  gap: 16px;
+}
+
+.plan-exercises-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #e5f0ff;
+}
+
+.plan-exercises-subtitle {
+  margin: 4px 0 0;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.plan-exercises-header-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.plan-exercises-back-button {
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  cursor: pointer;
+  font-size: 13px;
+  color: #e5e7eb;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease;
+}
+
+.plan-exercises-back-button:hover {
+  background: rgba(15, 23, 42, 0.9);
+  border-color: rgba(191, 219, 254, 0.85);
+  transform: translateY(-1px);
+}
+
+.plan-exercises-loading,
+.plan-exercises-error,
+.plan-exercises-empty {
+  text-align: center;
+  margin-top: 40px;
+  color: #9ca3af;
+}
+
+.plan-exercises-error {
+  color: #f97373;
+}
+
+.plan-exercises-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.plan-exercise-card {
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.7) inset;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease,
+    border-color 0.16s ease,
+    background 0.16s ease;
+}
+
+.plan-exercise-card:hover {
+  transform: translateY(-3px);
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(191, 219, 254, 0.8);
+  box-shadow:
+    0 24px 56px rgba(15, 23, 42, 0.98),
+    0 0 0 1px rgba(148, 163, 184, 0.7) inset;
+}
+
+.plan-exercise-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.plan-exercise-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #e5f0ff;
+}
+
+.plan-exercise-muscle {
+  font-size: 12px;
+  color: #bfdbfe;
+  white-space: nowrap;
+}
+
+.plan-exercise-description {
+  font-size: 14px;
+  color: #cbd5f5;
+  margin: 4px 0 10px;
+}
+
+.plan-exercise-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.plan-exercise-pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(59, 130, 246, 0.7);
+  color: #bfdbfe;
+  font-size: 11px;
+}
+
+.plan-exercise-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.plan-exercise-day {
+  color: #e5e7eb;
+}
+
+.plan-exercise-status {
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.plan-exercise-status--done {
+  background: rgba(22, 101, 52, 0.18);
+  color: #bbf7d0;
+  border-color: rgba(22, 163, 74, 0.7);
+}
+
+.plan-exercise-status--todo {
+  background: rgba(127, 29, 29, 0.2);
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.8);
+}
+
+.tp-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.tp-modal {
+  width: 100%;
+  max-width: 600px;
+  margin: 32px;
+  padding: 24px 28px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 20px;
+  box-shadow:
+    0 24px 60px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.7) inset;
+  box-sizing: border-box;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.tp-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.tp-modal-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.tp-modal-header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.tp-modal-header button:hover {
+  color: #e5e7eb;
+}
+
+.tp-modal-form {
+  display: block;
+}
+
+.tp-modal-form input,
+.tp-modal-form textarea,
+.tp-modal-form select {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  padding: 8px 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  color: #e5f0ff;
+  background-color: rgba(15, 23, 42, 0.9);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+  margin-bottom: 14px;
+}
+
+.tp-modal-form input::placeholder,
+.tp-modal-form textarea::placeholder {
+  color: #6b7280;
+}
+
+.tp-modal-form input:focus,
+.tp-modal-form textarea:focus,
+.tp-modal-form select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+  background-color: rgba(15, 23, 42, 1);
+}
+
+.tp-modal-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.tp-modal-row {
+  display: flex;
+  gap: 12px;
+}
+
+.tp-modal-row input {
+  flex: 1;
+}
+
+.tp-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.tp-modal-form input[type="number"]::-webkit-inner-spin-button,
+.tp-modal-form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .plan-exercises-page {
+    margin: 16px auto;
+    padding: 0 8px 24px;
+  }
+
+  .plan-exercises-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .plan-exercises-header-buttons {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+.plan-exercise-header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.plan-exercise-delete {
+  border-radius: 999px;
+  padding: 4px 8px;
+  min-width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  color: #fecaca;
+  font-size: 14px;
+  cursor: pointer;
+
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease,
+    box-shadow 0.15s ease;
+}
+
+.plan-exercise-delete:hover {
+  background: rgba(127, 29, 29, 0.25);
+  border-color: rgba(248, 113, 113, 0.8);
+  box-shadow: 0 8px 18px rgba(127, 29, 29, 0.55);
+  transform: translateY(-1px);
+}

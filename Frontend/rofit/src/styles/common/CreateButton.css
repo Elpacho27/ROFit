@@ -1,0 +1,10 @@
+.create-button {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  background-color: #113c80;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}

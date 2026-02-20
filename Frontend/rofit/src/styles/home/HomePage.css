@@ -1,0 +1,218 @@
+.home-root {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home-hero {
+  padding: 12px 8px 0;
+}
+
+.home-hero-content {
+  max-width: 640px;
+}
+
+.home-hero-title {
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #e5f0ff;
+  margin: 0 0 10px;
+}
+
+.home-hero-subtitle {
+  margin: 0;
+  color: #9ca3af;
+  font-size: 15px;
+}
+
+.home-section {
+  margin-top: 8px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(31, 41, 55, 0.9);
+}
+
+.home-section-header {
+  margin-bottom: 16px;
+}
+
+.home-section-title {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.home-section-subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.home-gyms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-gym-card {
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.8) inset;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-gym-image-wrapper {
+  height: 160px;
+  overflow: hidden;
+}
+
+.home-gym-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.home-gym-body {
+  padding: 10px 12px 12px;
+}
+
+.home-gym-name {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.home-gym-address {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.home-memberships-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-membership-card {
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  padding: 14px 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.7) inset;
+}
+
+.home-membership-card--featured {
+  border-color: rgba(129, 212, 250, 0.9);
+  box-shadow:
+    0 22px 52px rgba(37, 99, 235, 0.55),
+    0 0 0 1px rgba(129, 212, 250, 0.85) inset;
+}
+
+.home-membership-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.home-membership-name {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.home-membership-price {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #bfdbfe;
+}
+
+.home-membership-description {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.home-membership-features {
+  margin: 4px 0 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: #cbd5f5;
+}
+
+.home-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.home-step-card {
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  padding: 12px 14px 12px;
+  box-shadow:
+    0 16px 34px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.8) inset;
+}
+
+.home-step-number {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.home-step-title {
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e5f0ff;
+}
+
+.home-step-text {
+  margin: 0;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+@media (max-width: 900px) {
+  .home-gyms-grid,
+  .home-memberships-grid,
+  .home-steps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-hero-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-gyms-grid,
+  .home-memberships-grid,
+  .home-steps-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .home-hero-title {
+    font-size: 24px;
+  }
+}

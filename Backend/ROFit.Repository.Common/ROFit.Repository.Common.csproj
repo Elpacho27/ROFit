@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ROFit.Model.Common\ROFit.Model.Common.csproj" />
+    <ProjectReference Include="..\ROFit.Model\ROFit.Model.csproj" />
+  </ItemGroup>
+
+</Project>
