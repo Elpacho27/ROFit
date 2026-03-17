@@ -16,12 +16,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:5174") 
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials();               
-
-
+              .AllowAnyMethod();
     });
 });
 var firebaseJson = Environment.GetEnvironmentVariable("FIREBASE_CREDENTIALS");
@@ -112,10 +109,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseStaticFiles();
-if (app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
-}
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication(); 
@@ -126,5 +119,3 @@ app.MapHub<ChatHub>("/hubs/chat");
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 app.Run($"http://0.0.0.0:{port}");
-
-app.Run();
