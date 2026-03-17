@@ -1,7 +1,6 @@
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-
 COPY ROFit.Api/ROFit.Api.csproj ROFit.Api/
 COPY ROFit.Service/ROFit.Service.csproj ROFit.Service/
 COPY ROFit.DAL/ROFit.DAL.csproj ROFit.DAL/
@@ -11,18 +10,17 @@ COPY ROFit.Model.Common/ROFit.Model.Common.csproj ROFit.Model.Common/
 COPY ROFit.Repository/ROFit.Repository.csproj ROFit.Repository/
 COPY ROFit.Repository.Common/ROFit.Repository.Common.csproj ROFit.Repository.Common/
 COPY ROFit.Service.Common/ROFit.Service.Common.csproj ROFit.Service.Common/
-
 RUN dotnet restore ROFit.Api/ROFit.Api.csproj
-
 COPY . .
-
 RUN dotnet publish ROFit.Api/ROFit.Api.csproj \
     -c Release \
-    -o out \
+    -o /publish \
     --no-self-contained
-RUN ls -la out/   # ← dodaj ovo
+RUN ls -la /publish/
+
+# Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/out ./
+COPY --from=build /publish ./
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
