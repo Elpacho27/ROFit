@@ -53,6 +53,11 @@ namespace ROFit.Repository.SqlTemplates
             SET ""fcm_tokens"" = array_append(""fcm_tokens"", @FcmToken)
             WHERE ""id"" = @Id";
 
+        public const string DELETE_FCM_TOKEN = @"
+            UPDATE ""users""
+            SET ""fcm_tokens"" = array_remove(""fcm_tokens"", @FcmToken)
+            WHERE ""id"" = @Id";
+
         public const string GET_USER_FCM_TOKENS = @"
             SELECT ""fcm_tokens""
             FROM ""users""

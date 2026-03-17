@@ -9,6 +9,7 @@ using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.SignalR;
 using ROFit.Api.Hubs;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
@@ -23,9 +24,11 @@ builder.Services.AddCors(options =>
 
     });
 });
+var firebaseJson = Environment.GetEnvironmentVariable("FIREBASE_CREDENTIALS");
+
 var firebaseApp = FirebaseApp.Create(new AppOptions()
 {
-    Credential = GoogleCredential.FromFile(@"your_firebase_credential_file")
+    Credential = GoogleCredential.FromJson(firebaseJson)
 });
 
 var jwtSettings = builder.Configuration.GetSection("Jwt");

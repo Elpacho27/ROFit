@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ROFit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba9a33843381fa37713f33f4bfa24209157f0f7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ROFit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ROFit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

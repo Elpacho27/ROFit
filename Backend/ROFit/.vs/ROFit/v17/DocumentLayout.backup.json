@@ -3,125 +3,39 @@
   "WorkspaceRootPath": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|solutionrelative:controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit\\controllers\\trainingplanexercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|solutionrelative:controllers\\trainingplanexercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32D22033-9BC7-43DD-9313-68743FCA80C0}|..\\ROFit.Repository\\ROFit.Repository.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.repository\\trainingplanexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7557296-7AA4-4B52-B8F5-A7761533319C}|..\\ROFit.Service.Common\\ROFit.Service.Common.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.service.common\\itrainingplanexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D13B281-3C50-4E06-8880-4064C3ED8041}|..\\ROFit.Service\\ROFit.Service.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.service\\trainingplanexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1862343-3BAB-4231-AC63-E98E42DEF946}|..\\ROFit.Repository.Common\\ROFit.Repository.Common.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.repository.common\\itrainingplanexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D12AAA0-D495-4E70-AE50-01E544739F5D}|ROFit.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanMealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D13B281-3C50-4E06-8880-4064C3ED8041}|..\\ROFit.Service\\ROFit.Service.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IJwtTokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1862343-3BAB-4231-AC63-E98E42DEF946}|..\\ROFit.Repository.Common\\ROFit.Repository.Common.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.repository.common\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32D22033-9BC7-43DD-9313-68743FCA80C0}|..\\ROFit.Repository\\ROFit.Repository.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodMealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7557296-7AA4-4B52-B8F5-A7761533319C}|..\\ROFit.Service.Common\\ROFit.Service.Common.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.service.common\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFileMessageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IExerciseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ICoachAssignmentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanExerciseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanMealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\JwtTokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodMealService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FirebaseNotificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FileMessageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ExerciseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\CoachAssignmentService .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanMealRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFoodMealRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFileMessageRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IExerciseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ICoachAssignmentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IClientRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32D22033-9BC7-43DD-9313-68743FCA80C0}|..\\ROFit.Repository\\ROFit.Repository.csproj|d:\\patrik\\projects\\rofit\\backend\\rofit.repository\\sqltemplates\\usersqltemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -131,488 +45,140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FoodController.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\FoodController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FoodController.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\FoodController.cs",
-              "RelativeToolTip": "Controllers\\FoodController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:26:17.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IUserService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IUserService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Title": "TrainingPlanExerciseRepository.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\TrainingPlanExerciseRepository.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Repository\\TrainingPlanExerciseRepository.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\TrainingPlanExerciseRepository.cs",
+              "RelativeToolTip": "..\\ROFit.Repository\\TrainingPlanExerciseRepository.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAKoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:30.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITrainingPlanService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\ITrainingPlanService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\ITrainingPlanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:26.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITrainingPlanExerciseService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:22.6Z"
+              "WhenOpened": "2026-03-15T22:39:08.513Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IMealPlanService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IMealPlanService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IMealPlanService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Title": "ITrainingPlanExerciseRepository.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
+              "RelativeToolTip": "..\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:19.161Z"
+              "WhenOpened": "2026-03-15T22:38:44.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IMealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IMealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TrainingPlanExerciseService.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service\\TrainingPlanExerciseService.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Service\\TrainingPlanExerciseService.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service\\TrainingPlanExerciseService.cs",
+              "RelativeToolTip": "..\\ROFit.Service\\TrainingPlanExerciseService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:15.536Z"
+              "WhenOpened": "2026-03-15T22:38:17.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMealPlanMealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanMealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IMealPlanMealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IMealPlanMealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IMealPlanMealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITrainingPlanExerciseService.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
+              "RelativeToolTip": "..\\ROFit.Service.Common\\ITrainingPlanExerciseService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:11.613Z"
+              "WhenOpened": "2026-03-15T22:37:36.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IJwtTokenService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IJwtTokenService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IJwtTokenService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IJwtTokenService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IJwtTokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TrainingPlanExerciseController.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\TrainingPlanExerciseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TrainingPlanExerciseController.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\TrainingPlanExerciseController.cs",
+              "RelativeToolTip": "Controllers\\TrainingPlanExerciseController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwDwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:06.795Z"
+              "WhenOpened": "2026-03-15T22:31:25.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IFoodService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IFoodService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IFoodService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Repository\\UserRepository.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\ROFit.Repository\\UserRepository.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAQwFoBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:24:02.933Z"
+              "WhenOpened": "2026-03-14T22:22:09.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository.Common\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Repository.Common\\IUserRepository.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository.Common\\IUserRepository.cs",
+              "RelativeToolTip": "..\\ROFit.Repository.Common\\IUserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:21:44.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Service\\UserService.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service\\UserService.cs",
+              "RelativeToolTip": "..\\ROFit.Service\\UserService.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAEwGYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:21:02.847Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IFoodMealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodMealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IFoodMealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFoodMealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IFoodMealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service.Common\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Service.Common\\IUserService.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Service.Common\\IUserService.cs",
+              "RelativeToolTip": "..\\ROFit.Service.Common\\IUserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:57.815Z"
+              "WhenOpened": "2026-03-14T22:20:02.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IFileMessageService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFileMessageService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IFileMessageService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IFileMessageService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IFileMessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Title": "UserSqlTemplates.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\SqlTemplates\\UserSqlTemplates.cs",
+              "RelativeDocumentMoniker": "..\\ROFit.Repository\\SqlTemplates\\UserSqlTemplates.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit.Repository\\SqlTemplates\\UserSqlTemplates.cs",
+              "RelativeToolTip": "..\\ROFit.Repository\\SqlTemplates\\UserSqlTemplates.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:53.806Z"
+              "WhenOpened": "2026-03-14T22:18:46.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IExerciseService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IExerciseService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IExerciseService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IExerciseService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IExerciseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAEwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:49.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICoachAssignmentService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ICoachAssignmentService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\ICoachAssignmentService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\ICoachAssignmentService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\ICoachAssignmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:46.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IClientService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IClientService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service.Common\\IClientService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service.Common\\IClientService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service.Common\\IClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:42.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\UserService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\UserService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\UserService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAkwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:35.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TrainingPlanService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\TrainingPlanService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\TrainingPlanService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:30.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TrainingPlanExerciseService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanExerciseService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\TrainingPlanExerciseService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\TrainingPlanExerciseService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\TrainingPlanExerciseService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:23.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\MealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\MealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:19.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MealPlanService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\MealPlanService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\MealPlanService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:13.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MealPlanMealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanMealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\MealPlanMealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\MealPlanMealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\MealPlanMealService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:09.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\JwtTokenService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\JwtTokenService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\JwtTokenService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:23:00.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FoodService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\FoodService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\FoodService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:55.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FoodMealService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodMealService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\FoodMealService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FoodMealService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\FoodMealService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:50.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FirebaseNotificationService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FirebaseNotificationService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\FirebaseNotificationService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FirebaseNotificationService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\FirebaseNotificationService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:45.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FileMessageService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FileMessageService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\FileMessageService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\FileMessageService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\FileMessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:40.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ExerciseService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ExerciseService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\ExerciseService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ExerciseService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\ExerciseService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:36.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CoachAssignmentService .cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\CoachAssignmentService .cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\CoachAssignmentService .cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\CoachAssignmentService .cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\CoachAssignmentService .cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:31.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ClientService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\ClientService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ClientService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\ClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:27.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ChatService.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Service\\ChatService.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Service\\ChatService.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Service\\ChatService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:23.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IUserRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IUserRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:10.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ITrainingPlanRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\ITrainingPlanRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\ITrainingPlanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:07.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ITrainingPlanExerciseRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\ITrainingPlanExerciseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:04.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IMealRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IMealRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IMealRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:22:01.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IMealPlanRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IMealPlanRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IMealPlanRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:57.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IMealPlanMealRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanMealRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IMealPlanMealRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IMealPlanMealRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IMealPlanMealRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:52.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IFoodMealRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFoodMealRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IFoodMealRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFoodMealRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IFoodMealRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:51.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IFileMessageRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFileMessageRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IFileMessageRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IFileMessageRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IFileMessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:49.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IExerciseRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IExerciseRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IExerciseRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IExerciseRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IExerciseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:47.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ICoachAssignmentRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ICoachAssignmentRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\ICoachAssignmentRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\ICoachAssignmentRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\ICoachAssignmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:44.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\ROFit.Repository.Common\\IClientRepository.cs",
-              "ToolTip": "D:\\Patrik\\Projects\\ROFit\\ROFit.Repository.Common\\IClientRepository.cs",
-              "RelativeToolTip": "..\\..\\ROFit.Repository.Common\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T11:21:43.863Z"
+              "WhenOpened": "2026-03-14T22:15:57.187Z"
             }
           ]
         }

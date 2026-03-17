@@ -57,6 +57,19 @@ namespace ROFit.Controllers
             });
         }
 
+        [HttpGet("daily/{userId}/{dayOfWeek}")]
+        public async Task<IActionResult> GetUserDailyExercises(
+     Guid userId,
+     int dayOfWeek)
+        {
+            var exercises = await _service.GetUserDailyExercises(userId, dayOfWeek);
+            return Ok(new
+            {
+                success = true,
+                exercises = exercises
+            });
+        }
+
 
         [HttpGet("{userId}/{trainingPlanId}/{exerciseId}/{dayOfWeek}")]
         public async Task<IActionResult> GetExercise(

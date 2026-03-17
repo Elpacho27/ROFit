@@ -97,5 +97,10 @@ namespace ROFit.Service
         {
             return _userRepository.GetAllUserFcmTokens(userId);
         }
+
+        public Task<bool> DeleteUserFcmToken(Guid userId, string token)
+        {
+            return _userRepository.DeleteUserFcmToken(userId, token);
+        }
     }
 }

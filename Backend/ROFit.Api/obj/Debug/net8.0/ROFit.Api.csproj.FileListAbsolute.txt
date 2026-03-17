@@ -48,3 +48,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit.Api\obj\Debug\net8.0\ROFit.Api.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.Api\obj\Debug\net8.0\refint\ROFit.Api.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.Api\obj\Debug\net8.0\ROFit.Api.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit.Api\obj\Debug\net8.0\ref\ROFit.Api.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit.Api\obj\Debug\net8.0\ROFit.Api.sourcelink.json

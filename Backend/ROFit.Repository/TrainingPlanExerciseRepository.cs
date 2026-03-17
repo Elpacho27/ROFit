@@ -148,5 +148,47 @@ namespace ROFit.Repository
                 }
             }
         }
+
+        public async Task<List<TrainingPlanExercise>> GetUserDailyExercises(Guid userId, int dayOfWeek)
+        {
+            var exercises = new List<TrainingPlanExercise>();
+
+            using (var connection = ConnectionFactory.CreateConnection())
+            {
+                await connection.OpenAsync();
+
+                var sql = @"
+            SELECT *
+            FROM ""usertrainingplanexercises""
+            WHERE ""userid"" = @UserId
+              AND ""dayofweek"" = @DayOfWeek";
+
+                using (var command = new NpgsqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@UserId", userId);
+                    command.Parameters.AddWithValue("@DayOfWeek", dayOfWeek);
+
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            exercises.Add(new TrainingPlanExercise
+                            {
+                                UserId = reader.GetGuid(reader.GetOrdinal("userid")),
+                                TrainingPlanId = reader.GetGuid(reader.GetOrdinal("trainingplanid")),
+                                ExerciseId = reader.GetGuid(reader.GetOrdinal("exerciseid")),
+                                DayOfWeek = reader.GetInt16(reader.GetOrdinal("dayofweek")),
+                                IsCompleted = reader.GetBoolean(reader.GetOrdinal("iscompleted")),
+                                CompletedAt = reader.IsDBNull(reader.GetOrdinal("completedat"))
+                                    ? null
+                                    : reader.GetDateTime(reader.GetOrdinal("completedat"))
+                            });
+                        }
+                    }
+                }
+            }
+
+            return exercises;
+        }
     }
 }

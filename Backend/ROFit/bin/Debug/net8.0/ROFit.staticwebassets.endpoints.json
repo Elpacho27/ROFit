@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).1ym6g5g8x3.pdf",
+      "AssetFile": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 20:08:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ym6g5g8x3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "AssetFile": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 20:08:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ="
+        }
+      ]
+    }
+  ]
 }

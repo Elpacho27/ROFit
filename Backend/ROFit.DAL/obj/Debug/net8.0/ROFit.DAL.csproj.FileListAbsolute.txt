@@ -22,3 +22,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit.DAL\obj\Debug\net8.0\ROFit.DAL.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.DAL\obj\Debug\net8.0\refint\ROFit.DAL.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.DAL\obj\Debug\net8.0\ROFit.DAL.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit.DAL\obj\Debug\net8.0\ref\ROFit.DAL.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit.DAL\obj\Debug\net8.0\ROFit.DAL.sourcelink.json

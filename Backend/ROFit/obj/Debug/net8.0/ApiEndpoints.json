@@ -1057,6 +1057,27 @@
   },
   {
     "ContainingType": "ROFit.Controllers.TrainingPlanExerciseController",
+    "Method": "GetUserDailyExercises",
+    "RelativePath": "api/TrainingPlanExercise/daily/{userId}/{dayOfWeek}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dayOfWeek",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ROFit.Controllers.TrainingPlanExerciseController",
     "Method": "UpdateExerciseStatus",
     "RelativePath": "api/TrainingPlanExercise/update-status",
     "HttpMethod": "PUT",
@@ -1267,6 +1288,22 @@
     "Method": "UpdateFcmToken",
     "RelativePath": "api/User/fcmToken",
     "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ROFit.Controllers.UserController\u002BFcmTokenUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ROFit.Controllers.UserController",
+    "Method": "DeleteFcmToken",
+    "RelativePath": "api/User/fcmToken",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

@@ -92,6 +92,18 @@ namespace ROFit.Controllers
                 return BadRequest(new { success = false, message = "FcmTokens not updated!" });
         }
 
+        [HttpDelete("fcmToken")]
+        public async Task<IActionResult> DeleteFcmToken([FromBody] FcmTokenUpdateRequest request)
+        {
+            var isSuccess = await _userService.DeleteUserFcmToken(request.UserId, request.Token);
+            if (isSuccess)
+                return Ok("FcmToken successfully deleted!");
+            else
+                return BadRequest(new { success = false, message = "FcmToken not deleted!" });
+        }
+
+
+
         [HttpGet("fcmTokens")]
         public async Task<IActionResult> GetAllUserFcmTokens(Guid userId)
         {

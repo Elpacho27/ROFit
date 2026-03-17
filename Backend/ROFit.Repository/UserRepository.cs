@@ -330,6 +330,23 @@ namespace ROFit.Repository
             }
         }
 
+        public async Task<bool> DeleteUserFcmToken(Guid userId, string token)
+        {
+            using (var connection = ConnectionFactory.CreateConnection())
+            {
+                await connection.OpenAsync();
+
+                using (var command = new NpgsqlCommand(UserSqlTemplates.DELETE_FCM_TOKEN, connection))
+                {
+                    command.Parameters.Add("@Id", NpgsqlDbType.Uuid).Value = userId;
+                    command.Parameters.Add("@FcmToken", NpgsqlDbType.Text).Value = token;
+
+                    int rowsAffected = await command.ExecuteNonQueryAsync();
+                    return rowsAffected > 0;
+                }
+            }
+        }
+
         #endregion
     }
 }

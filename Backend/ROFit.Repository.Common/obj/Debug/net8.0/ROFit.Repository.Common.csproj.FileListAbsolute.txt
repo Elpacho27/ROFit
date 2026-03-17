@@ -32,3 +32,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit.Repository.Common\obj\Debug\net8.0\ROFit.
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository.Common\obj\Debug\net8.0\refint\ROFit.Repository.Common.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository.Common\obj\Debug\net8.0\ROFit.Repository.Common.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository.Common\obj\Debug\net8.0\ref\ROFit.Repository.Common.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit.Repository.Common\obj\Debug\net8.0\ROFit.Repository.Common.sourcelink.json

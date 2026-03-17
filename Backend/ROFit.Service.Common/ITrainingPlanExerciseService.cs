@@ -10,6 +10,9 @@ namespace ROFit.Service.Common
             Guid trainingPlanId,
             Guid exerciseId,
             int dayOfWeek);
+        Task<List<TrainingPlanExercise?>?> GetUserDailyExercises(
+            Guid userId,
+            int dayOfWeek);
         Task<bool> AddExerciseToPlanAsync(TrainingPlanExercise exercise);
         Task<bool> UpdateExerciseStatusAsync(
             Guid userId,

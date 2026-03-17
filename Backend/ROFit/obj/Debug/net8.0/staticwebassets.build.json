@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "koBycT+AAlJe8SKLIV2XUhWniP+azm6XMwiSo0j3UFk=",
+  "Hash": "nW9fQHRlXqzXTft8w489ZE6IbYVMFhh3LfiPBQVVmVk=",
   "Source": "ROFit",
   "BasePath": "_content/ROFit",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\wwwroot\\uploads\\chat-files\\9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "SourceId": "ROFit",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\wwwroot\\",
+      "BasePath": "_content/ROFit",
+      "RelativePath": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ym6g5g8x3",
+      "Integrity": "qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\chat-files\\9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).1ym6g5g8x3.pdf",
+      "AssetFile": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\wwwroot\\uploads\\chat-files\\9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 20:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ym6g5g8x3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/chat-files/9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "AssetFile": "D:\\Patrik\\Projects\\ROFit\\Backend\\ROFit\\wwwroot\\uploads\\chat-files\\9e587821-254b-49bd-bb8c-c95f4174bcb6_Patrik Ocelić (1).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 20:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qf2TM9rERmF7GKYYiu94gey1PlUGF7pykk/UHJ3VlWQ="
+        }
+      ]
+    }
+  ]
 }

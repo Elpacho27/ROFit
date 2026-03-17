@@ -174,3 +174,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit\obj\Debug\net8.0\refint\ROFit.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit\obj\Debug\net8.0\ROFit.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit\obj\Debug\net8.0\ROFit.genruntimeconfig.cache
 D:\Patrik\Projects\ROFit\Backend\ROFit\obj\Debug\net8.0\ref\ROFit.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit\obj\Debug\net8.0\ROFit.sourcelink.json

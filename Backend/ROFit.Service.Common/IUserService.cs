@@ -19,6 +19,7 @@ namespace ROFit.Service.Common
         Task SetPinAsync(Guid userId, string pin);
         Task<bool> VerifyPinAsync(Guid userId, string pin);
         Task<bool> UpdateUserFcmTokens(Guid userId, string token);
+        Task<bool> DeleteUserFcmToken(Guid userId, string token);
         Task<List<string>> GetAllUserFcmTokens(Guid userId);
     }
 }

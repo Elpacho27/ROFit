@@ -32,3 +32,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit.Service.Common\obj\Debug\net8.0\ROFit.Ser
 D:\Patrik\Projects\ROFit\Backend\ROFit.Service.Common\obj\Debug\net8.0\refint\ROFit.Service.Common.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.Service.Common\obj\Debug\net8.0\ROFit.Service.Common.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit.Service.Common\obj\Debug\net8.0\ref\ROFit.Service.Common.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit.Service.Common\obj\Debug\net8.0\ROFit.Service.Common.sourcelink.json

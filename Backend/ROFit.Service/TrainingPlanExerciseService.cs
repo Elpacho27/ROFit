@@ -53,5 +53,10 @@ namespace ROFit.Service
             return _repository.DeleteExerciseFromPlanAsync(
                 userId, trainingPlanId, exerciseId, dayOfWeek);
         }
+
+        public Task<List<TrainingPlanExercise?>?> GetUserDailyExercises(Guid userId, int dayOfWeek)
+        {
+            return _repository.GetUserDailyExercises(userId,dayOfWeek);
+        }
     }
 }

@@ -19,5 +19,6 @@ namespace ROFit.Repository.Common
         Task<bool> HasPinAsync(Guid userId);
         Task<bool> UpdateUserFcmTokens(Guid userId, string token);
         Task<List<string>> GetAllUserFcmTokens(Guid userId);
+        Task<bool> DeleteUserFcmToken(Guid userId, string token);
     }
 }

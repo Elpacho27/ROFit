@@ -40,3 +40,4 @@ D:\Patrik\Projects\ROFit\Backend\ROFit.Repository\obj\Debug\net8.0\ROFit.Reposit
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository\obj\Debug\net8.0\refint\ROFit.Repository.dll
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository\obj\Debug\net8.0\ROFit.Repository.pdb
 D:\Patrik\Projects\ROFit\Backend\ROFit.Repository\obj\Debug\net8.0\ref\ROFit.Repository.dll
+D:\Patrik\Projects\ROFit\Backend\ROFit.Repository\obj\Debug\net8.0\ROFit.Repository.sourcelink.json
