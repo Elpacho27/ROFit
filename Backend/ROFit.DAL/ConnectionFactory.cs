@@ -4,8 +4,26 @@ namespace ROFit.DAL
 {
     public static class ConnectionFactory
     {
-        private static readonly string ConnectionString =
-    "Server = 127.0.0.1;Port=5432;Database=rofit;User Id =postgres;Password=Post27gres;";
+        private static readonly string ConnectionString;
+
+        static ConnectionFactory()
+        {
+            var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+
+            if (string.IsNullOrEmpty(databaseUrl))
+            {
+                throw new InvalidOperationException(
+                );
+            }
+
+            var builder = new NpgsqlConnectionStringBuilder(databaseUrl)
+            {
+                SslMode = SslMode.Require,
+                TrustServerCertificate = true
+            };
+
+            ConnectionString = builder.ConnectionString;
+        }
 
         public static NpgsqlConnection CreateConnection()
         {
