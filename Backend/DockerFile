@@ -20,7 +20,7 @@ RUN dotnet restore ROFit.Api/ROFit.Api.csproj
 COPY . .
 
 # Publish API
-RUN dotnet publish ROFit.Api/ROFit.Api.csproj -c Release -o out
+RUN dotnet publish ROFit.Api/ROFit.Api.csproj -c Release -o out --no-self-contained
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
