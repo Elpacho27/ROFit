@@ -16,8 +16,7 @@ RUN dotnet publish ROFit.Api/ROFit.Api.csproj \
     -c Release \
     -o /publish \
     --no-self-contained
-RUN find /publish -type f -name "*.dll" | head -20
-RUN find /publish -type f -name "*.json" | head -20
+RUN find /publish -type f | sort
 
 # Cache bust
 ARG BUILDTIME=unknown
@@ -30,4 +29,3 @@ WORKDIR /app
 COPY --from=build /publish ./
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
-
