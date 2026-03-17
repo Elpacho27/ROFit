@@ -16,11 +16,19 @@ RUN dotnet publish ROFit.Api/ROFit.Api.csproj \
     -c Release \
     -o /publish \
     --no-self-contained
-RUN ls -la /publish/
+RUN find /publish -type f -name "*.dll" | head -20
+RUN find /publish -type f -name "*.json" | head -20
+
+# Cache bust
+ARG BUILDTIME=unknown
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+ARG BUILDTIME=unknown
+RUN echo "Build time: $BUILDTIME"
 WORKDIR /app
 COPY --from=build /publish ./
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
+```
+
