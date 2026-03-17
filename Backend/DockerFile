@@ -1,18 +1,9 @@
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-COPY ROFit.Api/ROFit.Api.csproj ROFit.Api/
-COPY ROFit.Service/ROFit.Service.csproj ROFit.Service/
-COPY ROFit.DAL/ROFit.DAL.csproj ROFit.DAL/
-COPY ROFit.common/ROFit.common.csproj ROFit.common/
-COPY ROFit.Model/ROFit.Model.csproj ROFit.Model/
-COPY ROFit.Model.Common/ROFit.Model.Common.csproj ROFit.Model.Common/
-COPY ROFit.Repository/ROFit.Repository.csproj ROFit.Repository/
-COPY ROFit.Repository.Common/ROFit.Repository.Common.csproj ROFit.Repository.Common/
-COPY ROFit.Service.Common/ROFit.Service.Common.csproj ROFit.Service.Common/
-RUN dotnet restore ROFit.Api/ROFit.Api.csproj
 COPY . .
-RUN dotnet publish ROFit.Api/ROFit.Api.csproj \
+RUN dotnet restore ROFit/ROFit.csproj
+RUN dotnet publish ROFit/ROFit.csproj \
     -c Release \
     -o /publish \
     --no-self-contained
@@ -28,4 +19,4 @@ RUN echo "Build time: $BUILDTIME"
 WORKDIR /app
 COPY --from=build /publish ./
 EXPOSE 8080
-ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
+ENTRYPOINT ["dotnet", "ROFit.dll"]
