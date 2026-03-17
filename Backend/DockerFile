@@ -2,23 +2,32 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Kopiraj samo csproj-ove da restore radi bez cijelog koda
-COPY ROFit.Api/ROFit.Api.csproj ./ROFit.Api/
-COPY ROFit.Service/ROFit.Service.csproj ./ROFit.Service/
-COPY ROFit.DAL/ROFit.DAL.csproj ./ROFit.DAL/
-
-WORKDIR /app/ROFit.Api
-RUN dotnet restore
+# Kopiraj sve .csproj datoteke
+COPY ROFit.Api/ROFit.Api.csproj ROFit.Api/
+COPY ROFit.Service/ROFit.Service.csproj ROFit.Service/
+COPY ROFit.DAL/ROFit.DAL.csproj ROFit.DAL/
+COPY ROFit.common/ROFit.common.csproj ROFit.common/
+COPY ROFit.Model/ROFit.Model.csproj ROFit.Model/
+COPY ROFit.Model.Common/ROFit.Model.Common.csproj ROFit.Model.Common/
+COPY ROFit.Repository/ROFit.Repository.csproj ROFit.Repository/
+COPY ROFit.Repository.Common/ROFit.Repository.Common.csproj ROFit.Repository.Common/
+COPY ROFit.Service.Common/ROFit.Service.Common.csproj ROFit.Service.Common/
+# dodaj ostale projekte po potrebi
+# Restore dependencies samo za API projekt
+RUN dotnet restore ROFit.Api/ROFit.Api.csproj
 
 # Kopiraj cijeli kod
 COPY . .
 
-RUN dotnet publish -c Release -o out
+# Publish API
+RUN dotnet publish ROFit.Api/ROFit.Api.csproj -c Release -o out
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/ROFit.Api/out ./
 
+ENV ASPNETCORE_URLS=http://*:$PORT
 EXPOSE 80
+
 ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
