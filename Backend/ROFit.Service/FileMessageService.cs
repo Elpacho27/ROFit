@@ -118,7 +118,8 @@ namespace ROFit.Service
                 FileName = fm.FileName,
                 FileType = fm.FileType,
                 FileSize = fm.FileSize,
-                CreatedAt = fm.CreatedAt
+                CreatedAt = fm.CreatedAt,
+                FilePath=fm.FilePath,
             };
         }
         public async Task<List<FileMessage>> GetByChatIdAsync(Guid chatId)
