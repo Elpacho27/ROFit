@@ -1,0 +1,24 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+# Kopiraj samo csproj-ove da restore radi bez cijelog koda
+COPY ROFit.Api/ROFit.Api.csproj ./ROFit.Api/
+COPY ROFit.Service/ROFit.Service.csproj ./ROFit.Service/
+COPY ROFit.DAL/ROFit.DAL.csproj ./ROFit.DAL/
+
+WORKDIR /app/ROFit.Api
+RUN dotnet restore
+
+# Kopiraj cijeli kod
+COPY . .
+
+RUN dotnet publish -c Release -o out
+
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/ROFit.Api/out ./
+
+EXPOSE 80
+ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
