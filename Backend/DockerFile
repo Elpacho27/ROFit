@@ -20,7 +20,12 @@ RUN dotnet restore ROFit.Api/ROFit.Api.csproj
 COPY . .
 
 # Publish API
-RUN dotnet publish ROFit.Api/ROFit.Api.csproj -c Release -o out --no-self-contained
+RUN dotnet publish ROFit.Api/ROFit.Api.csproj \
+    -c Release \
+    -o out \
+    -r linux-x64 \
+    --self-contained false \
+    /p:PublishTrimmed=false
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
@@ -29,5 +34,4 @@ COPY --from=build /app/out ./
 
 ENV ASPNETCORE_URLS=http://*:$PORT
 EXPOSE 80
-
 ENTRYPOINT ["dotnet", "ROFit.Api.dll"]
