@@ -18,7 +18,8 @@ builder.Services.AddCors(options =>
     {
         policy.AllowAnyOrigin()
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
 var firebaseJson = Environment.GetEnvironmentVariable("FIREBASE_CREDENTIALS");
