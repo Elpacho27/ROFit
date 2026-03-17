@@ -112,7 +112,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseStaticFiles();
-app.UseHttpsRedirection();
+if (app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication(); 
@@ -122,6 +125,6 @@ app.MapControllers();
 app.MapHub<ChatHub>("/hubs/chat");
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Urls.Add($"http://*:{port}");
+app.Run($"http://0.0.0.0:{port}");
 
 app.Run();
